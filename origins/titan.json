@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"ash:spawn_size",
+		"ash:size_up",
+		"ash:size_down",
+		"ash:size"
+	],
+	"icon": {
+		"item": "minecraft:clock"
+	},
+	"order": 1,
+	"impact": 2,
+	"name": "Size-Shifter",
+	"description": "Basically just AOT mixed with the inchling"
+}

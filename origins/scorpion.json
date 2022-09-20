@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"ash:health_seven",
+		"ash:desert",
+		"ash:scorpion_fast",
+		"ash:poison_punch",
+		"ash:slowness_punch",
+		"ash:dig",
+		"ash:digging",
+		"ash:no_elytra",
+		"ash:dig_overlay",
+		"ash:no_suf"
+	],
+	"icon": {
+		"item": "minecraft:sand"
+	},
+	"order": 1,
+	"impact": 2,
+	"name": "Scorpion",
+	"description": "It's like a spider got spitroasted by a wasp and an armadillo."
+}
