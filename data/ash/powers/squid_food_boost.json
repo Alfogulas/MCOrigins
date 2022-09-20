@@ -1,0 +1,19 @@
+{	
+
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:feed",
+		"food": 2,
+		"saturation": 2,
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "ash:squid_food"
+			},
+			{
+				"type": "origins:food"
+			}
+		}
+	},
+	"hidden": true
+}

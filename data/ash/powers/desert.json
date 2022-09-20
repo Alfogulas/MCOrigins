@@ -1,0 +1,8 @@
+{
+	"name": "Desert lover"
+	"description": "You love deserts so much you bend the game's mechanics to spawn at the nearest desert."
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"biome": "minecraft:desert",
+	"dimension_distance_multiplier": 1
+}

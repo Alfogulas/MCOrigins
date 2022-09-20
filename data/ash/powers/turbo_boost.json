@@ -1,0 +1,25 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:speed",
+			"duation": 5,
+			"amplifier": 99,
+			"show_particles": false,
+			"show_icon": true
+		}
+	},
+	"cooldown": 300,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 16
+	},
+	"name": "Turbo Boost",
+	"description": "Active the nitrous oxide within your vains, overclocking your speed"
+}

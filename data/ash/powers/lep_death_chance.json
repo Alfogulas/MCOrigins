@@ -1,0 +1,18 @@
+{
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/kill @s"
+				},
+				"chance": 0.5
+            }
+        ]
+    },
+	"name": "Out-luck the reaper",
+	"description": "You have a 50% to cheat death and survive each lethal hit you take"
+}

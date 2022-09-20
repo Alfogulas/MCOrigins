@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"origins:phantomize",
+		"origins:translucent",
+		"origins:phasing",
+		"origins:invisibility",
+		"origins:burn_in_daylight",
+		"origins:hunger_over_time",
+		"origins:fragile",
+		"origins:phantomize_overlay",
+		"ash:ghost_height",
+		"ash:ghost_girth",
+		"ash:food_cost"
+	],
+	"icon": {
+		"item": "minecraft:ghast_tear"
+	},
+	"order": 1,
+	"impact": 2,
+	"name": "Ghostling",
+	"description": "Basically just a really small phantom"
+}

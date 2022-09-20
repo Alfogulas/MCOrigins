@@ -1,9 +1,0 @@
-{
-    "type": "origins:prevent_block_use",
-    "block_condition": {
-		"type": "origins:in_tag",
-		"tag": "more:open"
-	},
-	"name": "Paws",
-	"description": "Did you know that raccoons are really good at opening stuff irl? Well, apparently not in Minecraft (can't open trapdoors, gates and doors)"
-}

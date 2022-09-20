@@ -1,0 +1,21 @@
+{
+	"type": "origins:multiple",
+	"inv": {
+		"type": "origins:restrict_armor",
+		"chest": {
+			"type": "origins:armor_value",
+			"comparison": "<",
+			"compare_to": 3
+		}
+    },
+	"use": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:elytra"
+			}
+		}
+    },
+	"hidden": true
+}

@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"ash:health_minus",
+		"ash:growing_hands",
+		"ash:warp",
+		"origins:fall_immunity",
+		"ash:no_elytra",
+		"ash:food_cost"
+	],
+	"icon": {
+		"item": "minecraft:clock"
+	},
+	"order": 1,
+	"impact": 2,
+	"name": "Warper",
+	"description": "Can use time and space."
+}

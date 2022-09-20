@@ -1,0 +1,28 @@
+{
+    "type": "origins:active_self",
+	"cooldown": 60000,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+				"command": "/summon horse ~ ~ ~ {Tame:1,SaddleItem:{id:saddle,Count:1},ActiveEffects:[{Id:1,Amplifier:1,Duration:1000000,ShowParticles:0b}]}"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/scale set pehkui:base 0.5 @e[distance=0..1,type=minecraft:horse]"
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+	},
+    "hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 4
+    },
+	"name": "Horse summon",
+"description": "I dont know why a leprechaun can do something akin to satanic summoning, but oh well. tiny horse :D"
+}

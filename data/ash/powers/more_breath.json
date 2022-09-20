@@ -1,0 +1,82 @@
+{
+	"type": "origins:action_over_time",
+	"name": "Aquatic lungs",
+	"description": "You have a very long breath that allows you to stay underwater for a long time",
+	"interval": 5,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+		},
+		{
+			"type": "origins:status_effect",
+			"effect": "minecraft:water_breathing",
+			"inverted": true
+		},
+		{
+			"type": "origins:air",
+			"comparison": ">",
+			"compare_to": 0
+		}
+		]
+	},
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:respiration",
+				"calculation": "max",
+				"comparison": "==",
+				"compare_to": 0
+			},
+			"action": {
+				"type": "origins:gain_air",
+				"value": 4
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:respiration",
+				"calculation": "max",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			"action": {
+				"type": "origins:gain_air",
+				"value": 3
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:respiration",
+				"calculation": "max",
+				"comparison": "==",
+				"compare_to": 2
+			},
+			"action": {
+				"type": "origins:gain_air",
+				"value": 2
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:respiration",
+				"calculation": "max",
+				"comparison": "==",
+				"compare_to": 3
+			},
+			"action": {
+				"type": "origins:gain_air",
+				"value": 1
+			}
+		}
+		]
+	}
+}

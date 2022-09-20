@@ -1,0 +1,8 @@
+{
+    "type": "origins:model_color",
+    "red": 0.5,
+    "green": 0.5,
+    "alpha": 0.8,
+    "name": "Squid skin",
+    "description": "The blue translucent skin of a squid making him very slippery indeed"
+}

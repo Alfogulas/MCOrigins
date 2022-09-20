@@ -1,0 +1,21 @@
+{
+    "type": "origins:fire_projectile",
+	"entity_type": "minecraft:arrow",
+	"cooldown": 60,
+	"count": 15,
+	"speed": 4,
+	"divergence": 10,
+	"sound": "minecraft:entity.skeleton.shoot",
+	"tag": "{pickup:0b}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 2
+	},
+	"name": "Arrow Volly",
+	"description": "Big arrow time"
+}

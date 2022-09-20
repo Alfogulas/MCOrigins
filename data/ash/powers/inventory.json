@@ -1,0 +1,10 @@
+{
+	"type": "origins:inventory",
+	"name": "Inventory",
+	"description": "You have some extra space to store your goods! Don't die though, this isn't an ender chest!",
+	"drop_on_death": true,
+	"key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+	}
+}

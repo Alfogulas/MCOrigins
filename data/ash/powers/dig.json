@@ -1,0 +1,28 @@
+{
+  "type": "origins:phasing",
+  "name": "Dig",
+  "description": "Can dig through sand, red sand, clay, gravel and a mystery material",
+  "blacklist": true,
+  "render_type": "blindness",
+  "view_distance": 10,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "ash:diggable",
+	"inverted": true
+  },
+  "phase_down_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:on_block"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:digging"
+  }
+}

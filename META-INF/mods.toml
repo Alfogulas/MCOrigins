@@ -1,0 +1,27 @@
+
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "No License"
+
+[[mods]]
+modId = "sakisiil_origins"
+version = "1.0"
+displayName = "Sakisiil's Origins Pack (Fabric and Forge)"
+authors = "sakisiil"
+description = '''
+Adds 2 New Origins to Origins - Sakisiil's Bumblebee and Raccoon Boi
+'''
+
+[[dependencies.sakisiil_origins]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.sakisiil_origins]]
+modId = "origins"
+mandatory = true
+versionRange = "[0.7,)"
+ordering = "AFTER"
+side = "BOTH"

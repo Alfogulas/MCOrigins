@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_air_speed",
-    "modifier": {
-        "operation": "multiply_total",
-        "value": 2
-    },
-	"name": "Hopping",
-	"description": "You move incedibly quickly when you jump"
-}

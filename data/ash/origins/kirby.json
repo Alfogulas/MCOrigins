@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"ash:ability_absorb_jump",
+		"ash:ability_absorb_speed",
+		"ash:ability_absorb_strength",
+		"ash:ability_absorb_haste",
+		"ash:no_elytra",
+		"ash:ability_absorb_fire_resistance",
+		"ash:ability_absorb_resistance",
+		"ash:ability_absorb_glowing",
+		"ash:ability_absorb_slow_fall",
+		"ash:ability_absorb_levitation",
+		"ash:ability_absorb_water_breathing",
+		"ash:ability_absorb_night_vision",
+		"ash:cake_expolsion"
+	],
+	"icon": "minecraft:cake",
+	"order": 11,
+	"impact": 2,
+	"name": "Kirbian",
+	"description": "Contantly plaugued with hunger, the kirbians are known to eat anything and everyhting available to them."
+}

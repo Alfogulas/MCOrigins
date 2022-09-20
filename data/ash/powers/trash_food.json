@@ -1,0 +1,19 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "more:bad_food"
+				},
+				"inverted": true
+			},
+			{
+				"type": "origins:food"
+			}
+		]
+	},
+	"name": "Trash food",
+	"description": "You can only eat the worst foods (all foods that give 1 saturation+rotten flesh)"
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "origins": [
+	"ash:kirby",
+	"ash:bumblebee",
+	"ash:monkey",
+	"ash:raccoonboi",
+	"ash:squid",
+	"ash:frog",
+	"ash:leprechaun",
+	"ash:starborne",
+	"ash:otter",
+	"ash:skeleton",
+	"ash:thylacoleo",
+	"ash:scorpion",
+	"ash:turbo",
+	"ash:warper",
+	"ash:ghostling"
+  ]
+}

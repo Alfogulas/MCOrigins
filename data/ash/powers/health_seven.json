@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"name": "Brittle bones",
+	"description": "You have 3 less hearts",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",
+		"value": -6,
+		"operation": "addition"
+	}
+}
