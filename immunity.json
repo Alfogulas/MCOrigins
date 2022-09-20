@@ -1,0 +1,9 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:poison",
+    "minecraft:hunger"
+  ],
+  "name": "Immunity",
+  "description": "Since you've been eating trash your whole life, you're now immune to hunger and poison!"
+}

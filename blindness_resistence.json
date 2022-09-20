@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:blindness"
+    ],
+	"name": "Blindess Immunity",
+	"description": "You are immune to all types of blindenss, incuding your own ink"
+}

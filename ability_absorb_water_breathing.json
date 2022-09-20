@@ -1,0 +1,19 @@
+{
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"duration": 600,
+			"amplifier": 0
+		}
+	},
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:tropical_fish"
+		}
+	},
+	"name": "Water Breathing",
+	"description": "Gain the ability to breath underwater by eating a tropical fish"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+    "red": 0.45,
+    "green": 0.96,
+	"blue": 20,
+    "alpha": 1,
+    "name": "Small body",
+	"description": "Frogs are a small creature that are samller than most others"
+}

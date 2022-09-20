@@ -1,0 +1,9 @@
+{
+    "type": "origins:model_color",
+    "red": 0.45,
+    "green": 0.96,
+	"blue": 20,
+    "alpha": 1,
+    "name": "Frog skin",
+    "description": "Green slippery skin, somewhat reminicient of a certain ogre..."
+}

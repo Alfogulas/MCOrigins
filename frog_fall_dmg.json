@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fall"
+	},
+	"modifier":{
+		"name": "fall dmg reduction",
+		"operation": "addition",
+		"value": -5
+	}
+}

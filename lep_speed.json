@@ -1,0 +1,12 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "/attribute @s minecraft:generic.movement_speed base set 0.15"
+	},
+	"key": {
+		"key": "key.forward",
+		"continuous": false
+	},
+	"hidden": true
+}

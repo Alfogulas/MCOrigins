@@ -1,0 +1,12 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "/scale set pehkui:base 0.5 @s"
+	},
+	"key": {
+		"key": "key.forward",
+		"continuous": false
+	},
+	"hidden": true
+}

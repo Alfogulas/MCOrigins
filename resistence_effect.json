@@ -1,0 +1,12 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "/effect give @s minecraft:resistance 1000000 1 true"
+	},
+	"key": {
+		"key": "key.forward",
+		"continuous": false
+	},
+	"hidden": true
+}

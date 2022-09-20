@@ -1,0 +1,13 @@
+{
+	"type": "origins:multiple",
+	"name": "Skorpion speed",
+	"description": "6 legs don't make you 6 times faster, retard. It does make you 0.25 times faster though.",
+	"speed": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"value": 0.25,
+			"operation": "multiply_base"
+		}
+	}
+}
